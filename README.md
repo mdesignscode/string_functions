@@ -17,6 +17,8 @@ f_letter_count - counts the number of letters on each line in a file
 to install library, run the command:
 **make install**
 
+*note: this requires root access to install library in /usr/local folder
+
 to use library, include the following header in source code:
 **#include <libstring_functions.h>**
 
