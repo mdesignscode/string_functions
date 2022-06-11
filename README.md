@@ -22,5 +22,8 @@ to install library, run the command:
 to use library, include the following header in source code:
 **#include <libstring_functions.h>**
 
+and add this directory to your LD_LIBRARY_PATH environment variable
+
 to compile a program using this library, use:
 **gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -L/usr/local/lib -lstring_functions**
+
